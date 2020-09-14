@@ -1,16 +1,66 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta http-equiv='X-UA-Compatible' content='IE=edge' />
     <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
-    <title>Example-SMART-App</title>
+    <title>Mazikcare Medic</title>
 
     <link rel='stylesheet' type='text/css' href='./src/css/example-smart-app.css'>
-    <!--
-      Temporarily disable cerner-smart-embeddable-lib
-      <link rel='stylesheet' type='text/css' href='./lib/css/cerner-smart-embeddable-lib-1.0.0.min.css'>
-    -->
-  </head>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' type='text/css' href='./src/css/common.css'>
+    <link rel='stylesheet' type='text/css' href='./src/css/timeline.css'>
+    <link rel='stylesheet' type='text/css' href='./src/css/jquery.min.css'>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <script src='./src/js/jquery214.js'></script>
+    <script src='./src/js/moment.js'></script>
+    <script src='./src/js/jquery-ui.min.js'></script>
+
+    <style>
+        body {
+            overflow: hidden !important;
+        }
+
+        .searchControl {
+            width: 100% !important;
+        }
+
+        .mzkcontainer {
+            width: 97%;
+        }
+		
+		.loadPos {
+	position:relative !important;
+	height: 100vh;
+	}
+        .fa-arrows-v:before {
+            content: "\f07d";
+            border-radius: 79px;
+            padding: 7px 12px;
+            color: #ff1878;
+            background: #ffe2f6;
+        }
+<!--
+      
+        
+        /* Safari */
+        @-webkit-keyframes spin {
+          0% { -webkit-transform: rotate(0deg); }
+          100% { -webkit-transform: rotate(360deg); }
+        }
+        
+        @keyframes spin {
+          0% { transform: rotate(0deg); }
+          100% { transform: rotate(360deg); }
+        }
+-->
+    </style>   
+</head>
   <body>
     <div id='errors'>
     </div>
